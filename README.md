@@ -14,3 +14,6 @@ Running discriminator.py
 
 ## Evaluation 
 Running eval.py
+
+## Detect video 
+Selecting detection model and running detection_track_video.py
