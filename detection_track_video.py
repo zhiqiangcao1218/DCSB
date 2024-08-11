@@ -77,7 +77,7 @@ def pearson(img1,img2):
 
 
 
-cap = cv2.VideoCapture('E:\\PycharmProjects\\difficult-case_discrimination\\video\\helmet_test_1.mp4')
+cap = cv2.VideoCapture('video_path')
 
 feature_params = dict(maxCorners=100,
                       qualityLevel=0.2,
@@ -88,12 +88,6 @@ feature_params = dict(maxCorners=100,
 lk_params = dict(winSize=(15,15),
                  maxLevel=2,
                  criteria=(cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 10, 0.03))
-
-lk_params_pink = dict(winSize=(15,15),
-                 maxLevel=2,
-                 criteria=(cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 10, 0.03))
-
-
 
 ret, old_frame = cap.read()
 old_gray = cv2.cvtColor(old_frame, cv2.COLOR_BGR2GRAY)
