@@ -8,12 +8,9 @@ Run both the small and large models on your dataset.
 Ensure that each model's output (e.g., predictions, probabilities, bounding boxes) is captured.
 2.Runing data_process/label_img.py, get_confidence_threshold.py, get_predict_number_area.py.
 3.Runing data_prepare_for_liner.py
-
 # Training 
 Running discriminator.py
-
 # Evaluation 
 Running eval.py
-
-## Video detection
+## VIDEO
 Selecting detection model and running detection_track_video.py
