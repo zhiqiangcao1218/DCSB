@@ -23,7 +23,8 @@ Selecting detection model and running detection_track_video.py
 ## Paper
 https://ieeexplore.ieee.org/abstract/document/10705683
 
-##Old_version_icdcs'23
-## Read 目标检测上云算法使用文档.doc  
+## Old_version_icdcs'23
+## How to work
+目标检测上云算法使用文档.doc  
 ## paper
 https://ieeexplore.ieee.org/abstract/document/10272511
